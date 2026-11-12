@@ -1,0 +1,11 @@
+Kit 72 h — créditos de terceiros
+
+Motor gráfico: iso.js, page.js, hand.js e rig.js copiados do demo "Instruction Manual Art" da biblioteca Lemo-Opuscar
+  (github.com/lemomo-ai/lemo-opuscar) — licença MIT.
+Fonte: Inter (The Inter Project Authors), via @fontsource-variable/inter — SIL Open Font License 1.1 (fonts/OFL.txt).
+Voz: sintetizada com Kokoro (kokoro-onnx, modelo Kokoro-82M, Apache-2.0), voz pf_dora, offline.
+Samples (CC0): VS Chamber Orchestra: Community Edition (Versilian Studios), Versilian Community Sample Library (Versilian Studios)
+  — marimba, glockenspiel, vibrafone, harpa, pizzicato de violoncelos, hand chimes.
+Efeitos sonoros: sintetizados em código (core/audio/sfx.py, MIT).
+Conteúdo: orientação da Defesa Civil Nacional (6/11/2026) conforme noticiada pelos portais listados em FACTS.md.
+  Nenhum logotipo ou brasão é usado.

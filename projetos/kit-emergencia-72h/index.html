@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Kit 72 h · Instruction Manual Art</title>
+<style>
+@font-face{font-family:"Inter Manual";src:url(fonts/Inter-latin-wght.woff2) format("woff2");font-weight:100 900}
+html,body{margin:0;background:#F4F1EA;overflow:hidden}canvas{display:block}
+</style></head><body><canvas id="c"></canvas>
+<script type="module">
+const W = innerWidth, H = innerHeight, c = document.getElementById('c'); c.width = W; c.height = H;
+const g = c.getContext('2d');
+const F = await import('./film.js'); const TL = await F.loadTimeline();
+const txt = TL.subs.map((s) => s.text).join('') + '72hKIT DE EMERGÊNCIA0123456789× mesesDefesaCivilBombeiros·';
+await Promise.all([600, 700, 800].map((w) => document.fonts.load(`${w} 60px "Inter Manual"`, txt)));
+F.setup(); window.DUR = TL.dur; window.EV = F.events(); window.TEXTS = F.texts;
+window.render = (t) => F.render(g, t);
+window.render(0);
+window.READY = true;
+</script></body></html>

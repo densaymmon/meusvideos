@@ -1,0 +1,87 @@
+{
+ "dur": 31.0,
+ "vo": {
+  "a": [
+   0.3,
+   4.686999999999999
+  ],
+  "b": [
+   5.45,
+   8.754
+  ],
+  "c": [
+   9.5,
+   11.71
+  ],
+  "d": [
+   12.6,
+   15.347999999999999
+  ],
+  "e": [
+   16.05,
+   18.517
+  ],
+  "f": [
+   19.25,
+   22.445
+  ],
+  "g": [
+   23.2,
+   25.03
+  ],
+  "h": [
+   25.75,
+   27.92
+  ]
+ },
+ "subs": [
+  {
+   "id": "a",
+   "t0": 0.3,
+   "t1": 5.35,
+   "text": "A Defesa Civil recomenda: tenha em casa um kit para 72 horas."
+  },
+  {
+   "id": "b",
+   "t0": 5.45,
+   "t1": 9.4,
+   "text": "É prevenção, não alarme. Sem pânico e sem estocar."
+  },
+  {
+   "id": "c",
+   "t0": 9.5,
+   "t1": 12.5,
+   "text": "Água: 2 litros por pessoa, por dia."
+  },
+  {
+   "id": "d",
+   "t0": 12.6,
+   "t1": 15.95,
+   "text": "Comida que não vai ao fogo e um abridor de latas."
+  },
+  {
+   "id": "e",
+   "t0": 16.05,
+   "t1": 19.15,
+   "text": "Lanterna, rádio, pilhas e carregador."
+  },
+  {
+   "id": "f",
+   "t0": 19.25,
+   "t1": 23.1,
+   "text": "Remédios, receitas e documentos num saco impermeável."
+  },
+  {
+   "id": "g",
+   "t0": 23.2,
+   "t1": 25.65,
+   "text": "Deixe a mochila perto da porta."
+  },
+  {
+   "id": "h",
+   "t0": 25.75,
+   "t1": 28.82,
+   "text": "E revise tudo a cada 6 meses."
+  }
+ ]
+}

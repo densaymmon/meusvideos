@@ -1,0 +1,66 @@
+[
+ {
+  "id": "a",
+  "text": "A Defesa Civil recomenda: tenha em casa um kit para setenta e duas horas.",
+  "sub": "A Defesa Civil recomenda: tenha em casa um kit para 72 horas.",
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "speed": 1.05
+ },
+ {
+  "id": "b",
+  "text": "É prevenção, não alarme. Sem pânico, e sem estocar.",
+  "sub": "É prevenção, não alarme. Sem pânico e sem estocar.",
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "speed": 1.05
+ },
+ {
+  "id": "c",
+  "text": "Água: dois litros por pessoa, por dia.",
+  "sub": "Água: 2 litros por pessoa, por dia.",
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "speed": 1.05
+ },
+ {
+  "id": "d",
+  "text": "Comida que não vai ao fogo, e um abridor de latas.",
+  "sub": "Comida que não vai ao fogo e um abridor de latas.",
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "speed": 1.05
+ },
+ {
+  "id": "e",
+  "text": "Lanterna, rádio, pilhas e carregador.",
+  "sub": "Lanterna, rádio, pilhas e carregador.",
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "speed": 1.05
+ },
+ {
+  "id": "f",
+  "text": "Remédios, receitas e documentos, num saco impermeável.",
+  "sub": "Remédios, receitas e documentos num saco impermeável.",
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "speed": 1.05
+ },
+ {
+  "id": "g",
+  "text": "Deixe a mochila perto da porta.",
+  "sub": "Deixe a mochila perto da porta.",
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "speed": 1.05
+ },
+ {
+  "id": "h",
+  "text": "E revise tudo a cada seis meses.",
+  "sub": "E revise tudo a cada 6 meses.",
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "speed": 1.05
+ }
+]
