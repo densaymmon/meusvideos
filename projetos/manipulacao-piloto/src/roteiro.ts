@@ -1,0 +1,143 @@
+import type React from 'react';
+import * as F from './cenas/Final';
+import * as G from './cenas/Gancho';
+import * as I from './cenas/Introducao';
+import * as A from './cenas/Sinais123';
+import * as B from './cenas/Sinais4567';
+import {blocos} from './tempo';
+import type {Deixa} from './tempo';
+
+/** Cena ilustrada de cada fala da narração. */
+export const CENAS: Record<string, React.FC<{fala: Deixa}>> = {
+  desculpa: G.CenaDesculpa,
+  'pra-voce': G.CenaPraVoce,
+  'nao-grita': G.CenaNaoGrita,
+  sussurra: G.CenaSussurra,
+  espelho: G.CenaEspelho,
+  vilao: I.CenaVilao,
+  'vida-real': I.CenaVidaReal,
+  gestos: I.CenaGestos,
+  'sete-sinais': I.CenaSeteSinais,
+  pesquisa: I.CenaPesquisa,
+  funcionam: I.CenaFuncionam,
+  aviso: I.CenaAviso,
+  'nao-rotular': I.CenaNaoRotular,
+  'dias-ruins': I.CenaDiasRuins,
+  padrao: I.CenaPadrao,
+  guarde: I.CenaGuarde,
+  'padrao-final': I.CenaPadraoFinal,
+
+  's1-titulo': A.S1Titulo,
+  's1-conhece': A.S1Conhece,
+  's1-filme': A.S1Filme,
+  's1-problema': A.S1Problema,
+  's1-nome': A.S1Nome,
+  's1-estudo': A.S1Estudo,
+  's1-achado': A.S1Achado,
+  's1-correlacao': A.S1Correlacao,
+  's1-alerta': A.S1Alerta,
+  's2-titulo': A.S2Titulo,
+  's2-frases': A.S2Frases,
+  's2-rotina': A.S2Rotina,
+  's2-nome': A.S2Nome,
+  's2-estudo': A.S2Estudo,
+  's2-surreal': A.S2Surreal,
+  's2-sinal': A.S2Sinal,
+  's3-titulo': A.S3Titulo,
+  's3-sair': A.S3Sair,
+  's3-ninguem': A.S3Ninguem,
+  's3-fica': A.S3Fica,
+  's3-estudo': A.S3Estudo,
+  's3-protege': A.S3Protege,
+  's3-influenciar': A.S3Influenciar,
+  's3-saudavel': A.S3Saudavel,
+  's3-fabricada': A.S3Fabricada,
+
+  'r-pensando': B.RPensando,
+  'r-diferentes': B.RDiferentes,
+  'r-ataques': B.RAtaques,
+  'r-amor': B.RAmor,
+  'r-setimo': B.RSetimo,
+  'r-fim': B.RFim,
+  's4-titulo': B.S4Titulo,
+  's4-bom': B.S4Bom,
+  's4-frio': B.S4Frio,
+  's4-semana': B.S4Semana,
+  's4-decadas': B.S4Decadas,
+  's4-skinner': B.S4Skinner,
+  's4-caca': B.S4Caca,
+  's4-dutton': B.S4Dutton,
+  's4-1993': B.S41993,
+  's4-aprendizado': B.S4Aprendizado,
+  's5-titulo': B.S5Titulo,
+  's5-frases': B.S5Frases,
+  's5-plateia': B.S5Plateia,
+  's5-bowen': B.S5Bowen,
+  's5-tensao': B.S5Tensao,
+  's5-alivia': B.S5Alivia,
+  's5-regua': B.S5Regua,
+  's6-titulo': B.S6Titulo,
+  's6-melhora': B.S6Melhora,
+  's6-exemplos': B.S6Exemplos,
+  's6-nome': B.S6Nome,
+  's6-diagnostico': B.S6Diagnostico,
+  's6-stark': B.S6Stark,
+  's6-cansativo': B.S6Cansativo,
+  's6-pergunta': B.S6Pergunta,
+  's7-titulo': B.S7Titulo,
+  's7-calma': B.S7Calma,
+  's7-dias': B.S7Dias,
+  's7-williams': B.S7Williams,
+  's7-necessidades': B.S7Necessidades,
+  's7-schrodt': B.S7Schrodt,
+  's7-paz': B.S7Paz,
+  's7-existe': B.S7Existe,
+
+  'f-nenhum': F.FNenhum,
+  'f-repeticao': F.FRepeticao,
+  'f-pergunta': F.FPergunta,
+  'f-sente': F.FSente,
+  'c-sozinho': F.CSozinho,
+  'c-conversar': F.CConversar,
+  'c-cvv': F.CCvv,
+  'c-sigilo': F.CSigilo,
+  'a-like': F.ALike,
+  'a-inscreve': F.AInscreve,
+  'a-comenta': F.AComenta,
+  'a-tchau': F.ATchau,
+
+  'x-p1-gancho': F.XP1Gancho,
+  'x-p1-continua': F.XP1Continua,
+  'x-p2-inicio': F.XP2Inicio,
+  'x-p2-gancho': F.XP2Gancho,
+  'x-p2-continua': F.XP2Continua,
+  'x-p3-inicio': F.XP3Inicio,
+  'x-segue': F.XSegue,
+};
+
+/** Vídeo completo do YouTube. */
+export const YOUTUBE = blocos(
+  'gancho',
+  'intro',
+  'sinal1',
+  'sinal2',
+  'sinal3',
+  'retencao',
+  'sinal4',
+  'sinal5',
+  'sinal6',
+  'sinal7',
+  'fechamento',
+  'cvv',
+  'cta',
+);
+
+/** Partes para redes sociais (verticais), cada uma termina com gancho para a próxima. */
+export const PARTES: string[][] = [
+  [...blocos('gancho', 'intro', 'sinal1', 'sinal2'), 'x-p1-gancho', 'x-p1-continua'],
+  ['x-p2-inicio', ...blocos('sinal3', 'sinal4', 'sinal5'), 'x-p2-gancho', 'x-p2-continua'],
+  ['x-p3-inicio', ...blocos('sinal6', 'sinal7', 'fechamento', 'cvv'), 'x-segue', 'a-comenta', 'a-tchau'],
+];
+
+/** Pausas um pouco mais curtas nas versões curtas. */
+export const FATOR_PAUSA_SOCIAL = 0.75;

@@ -12,9 +12,18 @@ VOZ, VELOCIDADE = "pf_dora", 0.88
 k = Kokoro(os.path.join(modelo, "kokoro-v1.0.onnx"), os.path.join(modelo, "voices-v1.0.bin"))
 falas = json.load(open("ferramentas/falas.json", encoding="utf-8"))
 saida = []
+# Só regera o áudio que falta ou cujo texto mudou (use --tudo para regerar tudo).
+anteriores = {}
+if os.path.exists("src/narracao.json") and "--tudo" not in sys.argv:
+    anteriores = {a["id"]: a for a in json.load(open("src/narracao.json", encoding="utf-8"))}
 for f in falas:
-    amostras, sr = k.create(f["texto"], voice=VOZ, speed=VELOCIDADE, lang="pt-br")
+    antes = anteriores.get(f["id"])
+    wav = f"public/narracao/{f['id']}.wav"
+    if antes and antes.get("voz", antes["texto"]) == f.get("voz", f["texto"]) and os.path.exists(wav):
+        saida.append({**antes, "texto": f["texto"], "pausa": f["pausa"], "bloco": f["bloco"]})
+        continue
+    amostras, sr = k.create(f.get("voz", f["texto"]), voice=VOZ, speed=VELOCIDADE, lang="pt-br")
     sf.write(f"public/narracao/{f['id']}.wav", amostras, sr)
-    saida.append({"id": f["id"], "texto": f["texto"], "duracao": round(len(amostras) / sr, 3), "pausa": f["pausa"]})
+    saida.append({"id": f["id"], "texto": f["texto"], "voz": f.get("voz", f["texto"]), "duracao": round(len(amostras) / sr, 3), "pausa": f["pausa"], "bloco": f["bloco"]})
     print(f["id"], saida[-1]["duracao"])
 json.dump(saida, open("src/narracao.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)

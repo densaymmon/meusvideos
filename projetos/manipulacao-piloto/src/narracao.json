@@ -3,102 +3,783 @@
     "id": "desculpa",
     "texto": "Se você já pediu desculpas por algo que nem sabe direito o que fez…",
     "duracao": 4.245,
-    "pausa": 0.6
+    "pausa": 0.6,
+    "bloco": "gancho"
   },
   {
     "id": "pra-voce",
     "texto": "este vídeo é pra você.",
     "duracao": 1.771,
-    "pausa": 0.5
+    "pausa": 0.5,
+    "bloco": "gancho"
   },
   {
     "id": "nao-grita",
     "texto": "Porque a manipulação mais eficiente não grita.",
     "duracao": 3.072,
-    "pausa": 0.4
+    "pausa": 0.4,
+    "bloco": "gancho"
   },
   {
     "id": "sussurra",
     "texto": "Ela sussurra.",
     "duracao": 1.195,
-    "pausa": 0.6
+    "pausa": 0.6,
+    "bloco": "gancho"
   },
   {
     "id": "espelho",
     "texto": "E faz você duvidar de si mesmo tão devagar que você nem percebe.",
     "duracao": 4.501,
-    "pausa": 0.9
+    "pausa": 0.9,
+    "bloco": "gancho"
   },
   {
     "id": "vilao",
     "texto": "Quando pensamos em manipulação, imaginamos um vilão óbvio, alguém que grita, ameaça, controla tudo.",
     "duracao": 6.443,
-    "pausa": 0.4
+    "pausa": 0.4,
+    "bloco": "intro"
   },
   {
     "id": "vida-real",
     "texto": "Na vida real, quase nunca é assim.",
     "duracao": 2.261,
-    "pausa": 0.4
+    "pausa": 0.4,
+    "bloco": "intro"
   },
   {
     "id": "gestos",
     "texto": "Ela aparece em gestos pequenos, repetidos, às vezes até gentis.",
     "duracao": 4.352,
-    "pausa": 0.5
+    "pausa": 0.5,
+    "bloco": "intro"
   },
   {
     "id": "sete-sinais",
     "texto": "Hoje vamos ver sete sinais sutis de manipulação emocional,",
     "duracao": 3.861,
-    "pausa": 0.2
+    "pausa": 0.2,
+    "bloco": "intro"
   },
   {
     "id": "pesquisa",
     "texto": "o que a pesquisa já descobriu sobre cada um,",
     "duracao": 2.773,
-    "pausa": 0.2
+    "pausa": 0.2,
+    "bloco": "intro"
   },
   {
     "id": "funcionam",
     "texto": "e por que eles funcionam tão bem.",
     "duracao": 2.112,
-    "pausa": 0.6
+    "pausa": 0.6,
+    "bloco": "intro"
   },
   {
     "id": "aviso",
     "texto": "Antes, um aviso importante:",
     "duracao": 1.856,
-    "pausa": 0.3
+    "pausa": 0.3,
+    "bloco": "intro"
   },
   {
     "id": "nao-rotular",
     "texto": "reconhecer um desses comportamentos em alguém não transforma essa pessoa automaticamente num manipulador.",
     "duracao": 6.933,
-    "pausa": 0.4
+    "pausa": 0.4,
+    "bloco": "intro"
   },
   {
     "id": "dias-ruins",
     "texto": "Todo mundo erra, todo mundo tem dias ruins.",
     "duracao": 2.859,
-    "pausa": 0.5
+    "pausa": 0.5,
+    "bloco": "intro"
   },
   {
     "id": "padrao",
     "texto": "O que importa é o padrão.",
     "duracao": 1.792,
-    "pausa": 0.5
+    "pausa": 0.5,
+    "bloco": "intro"
   },
   {
     "id": "guarde",
     "texto": "Guarde essa palavra.",
     "duracao": 1.621,
-    "pausa": 0.5
+    "pausa": 0.5,
+    "bloco": "intro"
   },
   {
     "id": "padrao-final",
     "texto": "Padrão.",
     "duracao": 0.811,
-    "pausa": 1.5
+    "pausa": 1.5,
+    "bloco": "intro"
+  },
+  {
+    "id": "s1-titulo",
+    "texto": "Sinal número um: o excesso no começo.",
+    "voz": "Sinal número um: o excesso no começo.",
+    "duracao": 2.325,
+    "pausa": 0.6,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s1-conhece",
+    "texto": "Você conhece alguém e, em poucos dias, recebe mensagens o tempo todo, elogios intensos, planos de futuro, 'nunca senti isso por ninguém'.",
+    "voz": "Você conhece alguém e, em poucos dias, recebe mensagens o tempo todo, elogios intensos, planos de futuro, 'nunca senti isso por ninguém'.",
+    "duracao": 8.875,
+    "pausa": 0.5,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s1-filme",
+    "texto": "Parece um filme.",
+    "voz": "Parece um filme.",
+    "duracao": 1.301,
+    "pausa": 0.4,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s1-problema",
+    "texto": "E é justamente esse o problema.",
+    "voz": "E é justamente esse o problema.",
+    "duracao": 2.112,
+    "pausa": 0.5,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s1-nome",
+    "texto": "Em inglês, isso ganhou o nome de love bombing, um bombardeio de afeto.",
+    "voz": "Em inglês, isso ganhou o nome de lóv bâmbin, um bombardeio de afeto.",
+    "duracao": 4.053,
+    "pausa": 0.5,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s1-estudo",
+    "texto": "Em 2017, pesquisadores da Universidade do Arkansas, liderados por Claire Strutzenberg, fizeram um dos primeiros estudos empíricos sobre o tema, com quatrocentos e oitenta e quatro universitários.",
+    "voz": "Em dois mil e dezessete, pesquisadores da Universidade do Árcansó, liderados por Clér Strútzenberg, fizeram um dos primeiros estudos empíricos sobre o tema, com quatrocentos e oitenta e quatro universitários.",
+    "duracao": 13.269,
+    "pausa": 0.4,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s1-achado",
+    "texto": "Eles encontraram associação entre esse comportamento e traços narcisistas, além de menor autoestima em quem praticava.",
+    "voz": "Eles encontraram associação entre esse comportamento e traços narcisistas, além de menor autoestima em quem praticava.",
+    "duracao": 7.744,
+    "pausa": 0.4,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s1-correlacao",
+    "texto": "É uma correlação, não uma sentença.",
+    "voz": "É uma correlação, não uma sentença.",
+    "duracao": 2.411,
+    "pausa": 0.5,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s1-alerta",
+    "texto": "Mas o alerta fica: quando a intensidade vem antes da intimidade, vale observar o que acontece quando você diz 'não'.",
+    "voz": "Mas o alerta fica: quando a intensidade vem antes da intimidade, vale observar o que acontece quando você diz 'não'.",
+    "duracao": 7.637,
+    "pausa": 0.9,
+    "bloco": "sinal1"
+  },
+  {
+    "id": "s2-titulo",
+    "texto": "Sinal número dois: você começa a duvidar da própria memória.",
+    "voz": "Sinal número dois: você começa a duvidar da própria memória.",
+    "duracao": 3.776,
+    "pausa": 0.6,
+    "bloco": "sinal2"
+  },
+  {
+    "id": "s2-frases",
+    "texto": "'Eu nunca disse isso.' 'Você está exagerando.' 'Você é sensível demais.'",
+    "voz": "'Eu nunca disse isso.' 'Você está exagerando.' 'Você é sensível demais.'",
+    "duracao": 4.331,
+    "pausa": 0.5,
+    "bloco": "sinal2"
+  },
+  {
+    "id": "s2-rotina",
+    "texto": "Uma vez, tudo bem. Mas quando vira rotina, você passa a conferir prints, a ensaiar conversas, a pedir para outras pessoas confirmarem o que você viveu.",
+    "voz": "Uma vez, tudo bem. Mas quando vira rotina, você passa a conferir prínts, a ensaiar conversas, a pedir para outras pessoas confirmarem o que você viveu.",
+    "duracao": 9.621,
+    "pausa": 0.5,
+    "bloco": "sinal2"
+  },
+  {
+    "id": "s2-nome",
+    "texto": "O nome disso é gaslighting, e vem de uma peça de teatro dos anos trinta, depois adaptada para o cinema, em que um marido convence a esposa de que ela está enlouquecendo.",
+    "voz": "O nome disso é gás láitin, e vem de uma peça de teatro dos anos trinta, depois adaptada para o cinema, em que um marido convence a esposa de que ela está enlouquecendo.",
+    "duracao": 10.496,
+    "pausa": 0.5,
+    "bloco": "sinal2"
+  },
+  {
+    "id": "s2-estudo",
+    "texto": "Em 2019, a socióloga Paige Sweet, da Universidade Harvard, publicou um estudo na American Sociological Review mostrando que o gaslighting fica mais forte quando se apoia em desigualdades de poder e em estereótipos, como a ideia de que certas pessoas seriam 'emocionais demais' para confiar em si mesmas.",
+    "voz": "Em dois mil e dezenove, a socióloga Pêidj Suít, da Universidade Rárvard, publicou um estudo na Américan Souciolójical Riviú mostrando que o gás láitin fica mais forte quando se apoia em desigualdades de poder e em estereótipos, como a ideia de que certas pessoas seriam emocionais demais para confiar em si mesmas.",
+    "duracao": 19.392,
+    "pausa": 0.4,
+    "bloco": "sinal2"
+  },
+  {
+    "id": "s2-surreal",
+    "texto": "O resultado é o que ela descreve como um ambiente 'surreal'.",
+    "voz": "O resultado é o que ela descreve como um ambiente 'surreal'.",
+    "duracao": 3.541,
+    "pausa": 0.4,
+    "bloco": "sinal2"
+  },
+  {
+    "id": "s2-sinal",
+    "texto": "O sinal mais claro: você sai das conversas sem saber mais o que é real.",
+    "voz": "O sinal mais claro: você sai das conversas sem saber mais o que é real.",
+    "duracao": 4.565,
+    "pausa": 0.9,
+    "bloco": "sinal2"
+  },
+  {
+    "id": "s3-titulo",
+    "texto": "Sinal número três: a culpa sempre chega antes da conversa.",
+    "voz": "Sinal número três: a culpa sempre chega antes da conversa.",
+    "duracao": 3.904,
+    "pausa": 0.6,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "s3-sair",
+    "texto": "Você quer sair com os amigos e escuta: 'tudo bem, vai lá, eu fico aqui sozinho mesmo'.",
+    "voz": "Você quer sair com os amigos e escuta: 'tudo bem, vai lá, eu fico aqui sozinho mesmo'.",
+    "duracao": 5.461,
+    "pausa": 0.5,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "s3-ninguem",
+    "texto": "Ninguém te proibiu de nada.",
+    "voz": "Ninguém te proibiu de nada.",
+    "duracao": 2.027,
+    "pausa": 0.4,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "s3-fica",
+    "texto": "Mesmo assim, você fica.",
+    "voz": "Mesmo assim, você fica.",
+    "duracao": 1.771,
+    "pausa": 0.6,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "s3-estudo",
+    "texto": "Em 1994, os psicólogos Roy Baumeister, Arlene Stillwell e Todd Heatherton publicaram uma revisão no Psychological Bulletin defendendo que a culpa é uma emoção essencialmente interpessoal.",
+    "voz": "Em mil novecentos e noventa e quatro, os psicólogos Rói Baumáister, Arlíne Stílwel e Tód Rédertom publicaram uma revisão no Saicolójical Búletin defendendo que a culpa é uma emoção essencialmente interpessoal.",
+    "duracao": 13.717,
+    "pausa": 0.4,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "s3-protege",
+    "texto": "Ela existe para proteger relações.",
+    "voz": "Ela existe para proteger relações.",
+    "duracao": 2.453,
+    "pausa": 0.4,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "s3-influenciar",
+    "texto": "E justamente por isso pode ser usada para influenciar: quem se mostra magoado consegue que o outro ceda, sem precisar pedir nada diretamente.",
+    "voz": "E justamente por isso pode ser usada para influenciar: quem se mostra magoado consegue que o outro ceda, sem precisar pedir nada diretamente.",
+    "duracao": 9.365,
+    "pausa": 0.5,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "s3-saudavel",
+    "texto": "Culpa saudável aponta um erro real.",
+    "voz": "Culpa saudável aponta um erro real.",
+    "duracao": 2.368,
+    "pausa": 0.4,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "s3-fabricada",
+    "texto": "Culpa fabricada aparece toda vez que você tenta ter vida própria.",
+    "voz": "Culpa fabricada aparece toda vez que você tenta ter vida própria.",
+    "duracao": 4.117,
+    "pausa": 0.9,
+    "bloco": "sinal3"
+  },
+  {
+    "id": "r-pensando",
+    "texto": "Até aqui, talvez você esteja pensando: 'tá, mas isso é fácil de perceber'.",
+    "voz": "Até aqui, talvez você esteja pensando: 'tá, mas isso é fácil de perceber'.",
+    "duracao": 4.864,
+    "pausa": 0.4,
+    "bloco": "retencao"
+  },
+  {
+    "id": "r-diferentes",
+    "texto": "Só que os próximos sinais são diferentes.",
+    "voz": "Só que os próximos sinais são diferentes.",
+    "duracao": 2.709,
+    "pausa": 0.4,
+    "bloco": "retencao"
+  },
+  {
+    "id": "r-ataques",
+    "texto": "Eles não parecem ataques.",
+    "voz": "Eles não parecem ataques.",
+    "duracao": 1.877,
+    "pausa": 0.3,
+    "bloco": "retencao"
+  },
+  {
+    "id": "r-amor",
+    "texto": "Parecem amor, parecem silêncio, parecem cuidado.",
+    "voz": "Parecem amor, parecem silêncio, parecem cuidado.",
+    "duracao": 3.456,
+    "pausa": 0.5,
+    "bloco": "retencao"
+  },
+  {
+    "id": "r-setimo",
+    "texto": "E o último, o sétimo, é provavelmente o que mais gente vive sem dar nome.",
+    "voz": "E o último, o sétimo, é provavelmente o que mais gente vive sem dar nome.",
+    "duracao": 4.821,
+    "pausa": 0.4,
+    "bloco": "retencao"
+  },
+  {
+    "id": "r-fim",
+    "texto": "Fica até o fim.",
+    "voz": "Fica até o fim.",
+    "duracao": 1.237,
+    "pausa": 0.9,
+    "bloco": "retencao"
+  },
+  {
+    "id": "s4-titulo",
+    "texto": "Sinal número quatro: o carinho imprevisível.",
+    "voz": "Sinal número quatro: o carinho imprevisível.",
+    "duracao": 2.795,
+    "pausa": 0.6,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-bom",
+    "texto": "Num dia, a pessoa é incrível, atenciosa, presente.",
+    "voz": "Num dia, a pessoa é incrível, atenciosa, presente.",
+    "duracao": 3.456,
+    "pausa": 0.3,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-frio",
+    "texto": "No outro, fria, distante, como se você não existisse.",
+    "voz": "No outro, fria, distante, como se você não existisse.",
+    "duracao": 3.691,
+    "pausa": 0.4,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-semana",
+    "texto": "E você passa a semana tentando descobrir o que fazer para o dia bom voltar.",
+    "voz": "E você passa a semana tentando descobrir o que fazer para o dia bom voltar.",
+    "duracao": 4.715,
+    "pausa": 0.5,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-decadas",
+    "texto": "A psicologia comportamental estudou esse mecanismo há décadas.",
+    "voz": "A psicologia comportamental estudou esse mecanismo há décadas.",
+    "duracao": 4.117,
+    "pausa": 0.4,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-skinner",
+    "texto": "Nos anos cinquenta, Charles Ferster e B. F. Skinner mostraram que recompensas dadas de forma imprevisível mantêm um comportamento por mais tempo do que recompensas constantes.",
+    "voz": "Nos anos cinquenta, Tchárles Férster e Bê Éfe Squíner mostraram que recompensas dadas de forma imprevisível mantêm um comportamento por mais tempo do que recompensas constantes.",
+    "duracao": 11.349,
+    "pausa": 0.4,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-caca",
+    "texto": "É a lógica de uma máquina caça-níquel.",
+    "voz": "É a lógica de uma máquina caça-níquel.",
+    "duracao": 2.581,
+    "pausa": 0.5,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-dutton",
+    "texto": "Nos relacionamentos, os psicólogos Donald Dutton e Susan Painter usaram essa ideia para descrever o que chamaram de vínculo traumático: a alternância entre maus-tratos e afeto pode criar um apego muito forte.",
+    "voz": "Nos relacionamentos, os psicólogos Dónald Dâton e Súsan Pêinter usaram essa ideia para descrever o que chamaram de vínculo traumático: a alternância entre maus-tratos e afeto pode criar um apego muito forte.",
+    "duracao": 13.184,
+    "pausa": 0.4,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-1993",
+    "texto": "Num estudo de 1993 com setenta e cinco mulheres que tinham acabado de sair de relações abusivas, a intermitência dos maus-tratos e a diferença de poder entre os parceiros ajudaram a prever o quanto elas continuavam ligadas ao ex, mesmo meses depois.",
+    "voz": "Num estudo de mil novecentos e noventa e três com setenta e cinco mulheres que tinham acabado de sair de relações abusivas, a intermitência dos maus-tratos e a diferença de poder entre os parceiros ajudaram a prever o quanto elas continuavam ligadas ao éks, mesmo meses depois.",
+    "duracao": 17.429,
+    "pausa": 0.5,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s4-aprendizado",
+    "texto": "Não é fraqueza. É aprendizado.",
+    "voz": "Não é fraqueza. É aprendizado.",
+    "duracao": 2.261,
+    "pausa": 0.9,
+    "bloco": "sinal4"
+  },
+  {
+    "id": "s5-titulo",
+    "texto": "Sinal número cinco: sempre existe uma terceira pessoa na conversa.",
+    "voz": "Sinal número cinco: sempre existe uma terceira pessoa na conversa.",
+    "duracao": 4.331,
+    "pausa": 0.6,
+    "bloco": "sinal5"
+  },
+  {
+    "id": "s5-frases",
+    "texto": "'Minha ex nunca reclamava disso.' 'Até a sua irmã acha que você exagera.' 'Fulano me entende melhor.'",
+    "voz": "Minha éks nunca reclamava disso. Até a sua irmã acha que você exagera. Fulano me entende melhor.",
+    "duracao": 6.357,
+    "pausa": 0.5,
+    "bloco": "sinal5"
+  },
+  {
+    "id": "s5-plateia",
+    "texto": "De repente, você não está discutindo com uma pessoa. Está competindo com uma plateia.",
+    "voz": "De repente, você não está discutindo com uma pessoa. Está competindo com uma plateia.",
+    "duracao": 5.525,
+    "pausa": 0.5,
+    "bloco": "sinal5"
+  },
+  {
+    "id": "s5-bowen",
+    "texto": "O psiquiatra Murray Bowen, criador da teoria dos sistemas familiares, descreveu o triângulo como a menor unidade emocional estável:",
+    "voz": "O psiquiatra Mârei Bôuen, criador da teoria dos sistemas familiares, descreveu o triângulo como a menor unidade emocional estável:",
+    "duracao": 8.235,
+    "pausa": 0.3,
+    "bloco": "sinal5"
+  },
+  {
+    "id": "s5-tensao",
+    "texto": "quando a tensão cresce entre duas pessoas, uma terceira é puxada para dentro.",
+    "voz": "quando a tensão cresce entre duas pessoas, uma terceira é puxada para dentro.",
+    "duracao": 4.736,
+    "pausa": 0.4,
+    "bloco": "sinal5"
+  },
+  {
+    "id": "s5-alivia",
+    "texto": "Isso alivia a tensão, mas não resolve nada, e alguém sempre acaba de fora.",
+    "voz": "Isso alivia a tensão, mas não resolve nada, e alguém sempre acaba de fora.",
+    "duracao": 4.693,
+    "pausa": 0.4,
+    "bloco": "sinal5"
+  },
+  {
+    "id": "s5-regua",
+    "texto": "Na manipulação, esse terceiro vira uma régua invisível para você nunca se sentir suficiente.",
+    "voz": "Na manipulação, esse terceiro vira uma régua invisível para você nunca se sentir suficiente.",
+    "duracao": 5.803,
+    "pausa": 0.9,
+    "bloco": "sinal5"
+  },
+  {
+    "id": "s6-titulo",
+    "texto": "Sinal número seis: a linha de chegada que sempre muda de lugar.",
+    "voz": "Sinal número seis: a linha de chegada que sempre muda de lugar.",
+    "duracao": 3.883,
+    "pausa": 0.6,
+    "bloco": "sinal6"
+  },
+  {
+    "id": "s6-melhora",
+    "texto": "Você melhora aquilo que foi criticado e, quando consegue, surge outra exigência.",
+    "voz": "Você melhora aquilo que foi criticado e, quando consegue, surge outra exigência.",
+    "duracao": 4.949,
+    "pausa": 0.4,
+    "bloco": "sinal6"
+  },
+  {
+    "id": "s6-exemplos",
+    "texto": "Respondeu rápido? Agora é o tom. Mudou o tom? Agora é a roupa.",
+    "voz": "Respondeu rápido? Agora é o tom. Mudou o tom? Agora é a roupa.",
+    "duracao": 3.861,
+    "pausa": 0.5,
+    "bloco": "sinal6"
+  },
+  {
+    "id": "s6-nome",
+    "texto": "Em inglês, chamam isso de moving the goalposts, mover as traves do gol.",
+    "voz": "Em inglês, chamam isso de múvin dê gôl pôusts, mover as traves do gol.",
+    "duracao": 4.245,
+    "pausa": 0.4,
+    "bloco": "sinal6"
+  },
+  {
+    "id": "s6-diagnostico",
+    "texto": "Não é um diagnóstico clínico, é uma descrição de comportamento.",
+    "voz": "Não é um diagnóstico clínico, é uma descrição de comportamento.",
+    "duracao": 4.117,
+    "pausa": 0.4,
+    "bloco": "sinal6"
+  },
+  {
+    "id": "s6-stark",
+    "texto": "Mas ele conversa com algo que o sociólogo Evan Stark descreveu no livro Coercive Control, de 2007: o abuso muitas vezes não é um episódio isolado, e sim um padrão contínuo de controle sobre a vida cotidiana.",
+    "voz": "Mas ele conversa com algo que o sociólogo Évan Stárk descreveu no livro Couêrsiv Contrôl, de dois mil e sete: o abuso muitas vezes não é um episódio isolado, e sim um padrão contínuo de controle sobre a vida cotidiana.",
+    "duracao": 13.931,
+    "pausa": 0.4,
+    "bloco": "sinal6"
+  },
+  {
+    "id": "s6-cansativo",
+    "texto": "O efeito é cansativo e silencioso.",
+    "voz": "O efeito é cansativo e silencioso.",
+    "duracao": 2.603,
+    "pausa": 0.4,
+    "bloco": "sinal6"
+  },
+  {
+    "id": "s6-pergunta",
+    "texto": "Você para de perguntar 'o que eu quero' e passa a perguntar só 'o que vai agradar'.",
+    "voz": "Você para de perguntar 'o que eu quero' e passa a perguntar só 'o que vai agradar'.",
+    "duracao": 4.821,
+    "pausa": 0.9,
+    "bloco": "sinal6"
+  },
+  {
+    "id": "s7-titulo",
+    "texto": "E o sinal número sete, o mais comum e o menos nomeado: o silêncio como punição.",
+    "voz": "E o sinal número sete, o mais comum e o menos nomeado: o silêncio como punição.",
+    "duracao": 5.099,
+    "pausa": 0.6,
+    "bloco": "sinal7"
+  },
+  {
+    "id": "s7-calma",
+    "texto": "Não é o silêncio de quem precisa de um tempo para se acalmar.",
+    "voz": "Não é o silêncio de quem precisa de um tempo para se acalmar.",
+    "duracao": 3.712,
+    "pausa": 0.4,
+    "bloco": "sinal7"
+  },
+  {
+    "id": "s7-dias",
+    "texto": "É o silêncio que dura dias, que ignora mensagens, que responde com 'nada' quando você pergunta o que houve.",
+    "voz": "É o silêncio que dura dias, que ignora mensagens, que responde com 'nada' quando você pergunta o que houve.",
+    "duracao": 6.336,
+    "pausa": 0.5,
+    "bloco": "sinal7"
+  },
+  {
+    "id": "s7-williams",
+    "texto": "O psicólogo Kipling Williams, da Universidade Purdue, passou anos estudando o ostracismo, o ato de ignorar e excluir alguém.",
+    "voz": "O psicólogo Quíplin Uíliams, da Universidade Pârdiu, passou anos estudando o ostracismo, o ato de ignorar e excluir alguém.",
+    "duracao": 7.872,
+    "pausa": 0.4,
+    "bloco": "sinal7"
+  },
+  {
+    "id": "s7-necessidades",
+    "texto": "Segundo o modelo dele, ser ignorado ameaça quatro necessidades básicas: pertencer, ter autoestima, ter controle e sentir que a própria existência importa.",
+    "voz": "Segundo o modelo dele, ser ignorado ameaça quatro necessidades básicas: pertencer, ter autoestima, ter controle e sentir que a própria existência importa.",
+    "duracao": 9.771,
+    "pausa": 0.5,
+    "bloco": "sinal7"
+  },
+  {
+    "id": "s7-schrodt",
+    "texto": "E uma meta-análise de 2014, liderada por Paul Schrodt, reuniu setenta e quatro estudos sobre o padrão em que um parceiro cobra e o outro se fecha, e encontrou associação com menor satisfação e mais problemas de comunicação no relacionamento.",
+    "voz": "E uma meta-análise de dois mil e catorze, liderada por Pól Chrôdt, reuniu setenta e quatro estudos sobre o padrão em que um parceiro cobra e o outro se fecha, e encontrou associação com menor satisfação e mais problemas de comunicação no relacionamento.",
+    "duracao": 15.531,
+    "pausa": 0.5,
+    "bloco": "sinal7"
+  },
+  {
+    "id": "s7-paz",
+    "texto": "O silêncio, usado assim, não é paz.",
+    "voz": "O silêncio, usado assim, não é paz.",
+    "duracao": 2.432,
+    "pausa": 0.4,
+    "bloco": "sinal7"
+  },
+  {
+    "id": "s7-existe",
+    "texto": "É uma forma de dizer 'você só existe quando eu deixo'.",
+    "voz": "É uma forma de dizer 'você só existe quando eu deixo'.",
+    "duracao": 3.371,
+    "pausa": 1.0,
+    "bloco": "sinal7"
+  },
+  {
+    "id": "f-nenhum",
+    "texto": "Perceba que nenhum desses sinais, sozinho, prova nada.",
+    "voz": "Perceba que nenhum desses sinais, sozinho, prova nada.",
+    "duracao": 3.157,
+    "pausa": 0.4,
+    "bloco": "fechamento"
+  },
+  {
+    "id": "f-repeticao",
+    "texto": "O que transforma comportamento em manipulação é a repetição, e o efeito que ela deixa em você: confusão, culpa constante, medo de reagir, a sensação de pisar em ovos.",
+    "voz": "O que transforma comportamento em manipulação é a repetição, e o efeito que ela deixa em você: confusão, culpa constante, medo de reagir, a sensação de pisar em ovos.",
+    "duracao": 10.731,
+    "pausa": 0.5,
+    "bloco": "fechamento"
+  },
+  {
+    "id": "f-pergunta",
+    "texto": "Se você se reconheceu em vários deles, a pergunta mais importante não é 'essa pessoa é má?'.",
+    "voz": "Se você se reconheceu em vários deles, a pergunta mais importante não é 'essa pessoa é má?'.",
+    "duracao": 5.589,
+    "pausa": 0.4,
+    "bloco": "fechamento"
+  },
+  {
+    "id": "f-sente",
+    "texto": "É 'como eu me sinto perto dela?'.",
+    "voz": "É 'como eu me sinto perto dela?'.",
+    "duracao": 2.048,
+    "pausa": 1.0,
+    "bloco": "fechamento"
+  },
+  {
+    "id": "c-sozinho",
+    "texto": "E se esses padrões fazem parte da sua vida agora, você não precisa lidar com isso sozinho.",
+    "voz": "E se esses padrões fazem parte da sua vida agora, você não precisa lidar com isso sozinho.",
+    "duracao": 5.675,
+    "pausa": 0.4,
+    "bloco": "cvv"
+  },
+  {
+    "id": "c-conversar",
+    "texto": "Conversar com alguém de confiança ou com um psicólogo pode ajudar a colocar as coisas em perspectiva.",
+    "voz": "Conversar com alguém de confiança ou com um psicólogo pode ajudar a colocar as coisas em perspectiva.",
+    "duracao": 6.464,
+    "pausa": 0.5,
+    "bloco": "cvv"
+  },
+  {
+    "id": "c-cvv",
+    "texto": "E se você estiver sofrendo emocionalmente, o CVV, Centro de Valorização da Vida, atende de graça, vinte e quatro horas por dia, pelo telefone um, oito, oito, ou pelo chat no site cvv.org.br.",
+    "voz": "E se você estiver sofrendo emocionalmente, o cê vê vê, Centro de Valorização da Vida, atende de graça, vinte e quatro horas por dia, pelo telefone um, oito, oito, ou pelo chat no site cê vê vê ponto órg ponto bê érre.",
+    "duracao": 13.696,
+    "pausa": 0.3,
+    "bloco": "cvv"
+  },
+  {
+    "id": "c-sigilo",
+    "texto": "Com sigilo, sem julgamento.",
+    "voz": "Com sigilo, sem julgamento.",
+    "duracao": 2.069,
+    "pausa": 1.2,
+    "bloco": "cvv"
+  },
+  {
+    "id": "a-like",
+    "texto": "Se este vídeo te fez enxergar algo que você sentia, mas não sabia nomear, deixa o seu like, isso ajuda o canal a chegar em mais gente.",
+    "voz": "Se este vídeo te fez enxergar algo que você sentia, mas não sabia nomear, deixa o seu láik, isso ajuda o canal a chegar em mais gente.",
+    "duracao": 8.533,
+    "pausa": 0.4,
+    "bloco": "cta"
+  },
+  {
+    "id": "a-inscreve",
+    "texto": "Se inscreve para entender a psicologia por trás do que você faz sem perceber.",
+    "voz": "Se inscreve para entender a psicologia por trás do que você faz sem perceber.",
+    "duracao": 4.821,
+    "pausa": 0.4,
+    "bloco": "cta"
+  },
+  {
+    "id": "a-comenta",
+    "texto": "E me conta nos comentários: qual desses sinais você acha mais difícil de notar?",
+    "voz": "E me conta nos comentários: qual desses sinais você acha mais difícil de notar?",
+    "duracao": 4.992,
+    "pausa": 0.6,
+    "bloco": "cta"
+  },
+  {
+    "id": "a-tchau",
+    "texto": "Até o próximo vídeo.",
+    "voz": "Até o próximo vídeo.",
+    "duracao": 1.643,
+    "pausa": 1.5,
+    "bloco": "cta"
+  },
+  {
+    "id": "x-p1-gancho",
+    "texto": "E o próximo sinal faz você se sentir culpado sem ninguém te acusar de nada.",
+    "voz": "E o próximo sinal faz você se sentir culpado sem ninguém te acusar de nada.",
+    "duracao": 5.12,
+    "pausa": 0.4,
+    "bloco": "social"
+  },
+  {
+    "id": "x-p1-continua",
+    "texto": "Ele está na parte dois.",
+    "voz": "Ele está na parte dois.",
+    "duracao": 1.685,
+    "pausa": 1.4,
+    "bloco": "social"
+  },
+  {
+    "id": "x-p2-inicio",
+    "texto": "Parte dois. Se você perdeu a primeira, ela está no perfil.",
+    "voz": "Parte dois. Se você perdeu a primeira, ela está no perfil.",
+    "duracao": 3.541,
+    "pausa": 0.6,
+    "bloco": "social"
+  },
+  {
+    "id": "x-p2-gancho",
+    "texto": "Os dois últimos sinais são os mais difíceis de enxergar. E o sétimo, quase todo mundo já viveu.",
+    "voz": "Os dois últimos sinais são os mais difíceis de enxergar. E o sétimo, quase todo mundo já viveu.",
+    "duracao": 6.336,
+    "pausa": 0.4,
+    "bloco": "social"
+  },
+  {
+    "id": "x-p2-continua",
+    "texto": "Parte três, no próximo vídeo.",
+    "voz": "Parte três, no próximo vídeo.",
+    "duracao": 2.176,
+    "pausa": 1.4,
+    "bloco": "social"
+  },
+  {
+    "id": "x-p3-inicio",
+    "texto": "Parte três, a última. Se perdeu as anteriores, elas estão no perfil.",
+    "voz": "Parte três, a última. Se perdeu as anteriores, elas estão no perfil.",
+    "duracao": 4.501,
+    "pausa": 0.6,
+    "bloco": "social"
+  },
+  {
+    "id": "x-segue",
+    "texto": "Me segue para entender a psicologia por trás do que você faz sem perceber.",
+    "voz": "Me segue para entender a psicologia por trás do que você faz sem perceber.",
+    "duracao": 4.779,
+    "pausa": 0.4,
+    "bloco": "social"
   }
 ]

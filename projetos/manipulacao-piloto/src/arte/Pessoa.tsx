@@ -1,7 +1,7 @@
 import React from 'react';
 import {useCurrentFrame, useVideoConfig} from 'remotion';
 
-export type Humor = 'neutro' | 'feliz' | 'triste' | 'preocupada' | 'surpresa' | 'confusa';
+export type Humor = 'neutro' | 'feliz' | 'triste' | 'preocupada' | 'surpresa' | 'confusa' | 'bravo';
 export type Bracos = 'nenhum' | 'celular' | 'oferecer' | 'acenar';
 
 type Props = {
@@ -40,6 +40,8 @@ const Boca: React.FC<{humor: Humor; cor: string}> = ({humor, cor}) => {
       return <ellipse cx={0} cy={-264} rx={15} ry={20} fill="#7a2e2e" />;
     case 'confusa':
       return <path d="M -28 -262 L 30 -272" {...p} />;
+    case 'bravo':
+      return <path d="M -30 -256 Q 0 -276 30 -256" {...p} />;
     default:
       return <path d="M -24 -266 Q 0 -256 24 -266" {...p} />;
   }
@@ -52,6 +54,14 @@ const Sobrancelhas: React.FC<{humor: Humor; cor: string}> = ({humor, cor}) => {
       <>
         <path d="M -66 -372 L -22 -386" {...p} />
         <path d="M 66 -372 L 22 -386" {...p} />
+      </>
+    );
+  }
+  if (humor === 'bravo') {
+    return (
+      <>
+        <path d="M -66 -392 L -20 -372" {...p} />
+        <path d="M 66 -392 L 20 -372" {...p} />
       </>
     );
   }

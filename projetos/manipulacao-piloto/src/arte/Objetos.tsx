@@ -165,7 +165,7 @@ export const Cartao: React.FC<{
   largura?: number;
   rotacao?: number;
 }> = ({x, y, texto, cor = '#fff', corTexto = CONTORNO, tamanho = 64, largura, rotacao = 0}) => {
-  const w = largura ?? texto.length * tamanho * 0.68 + 80;
+  const w = largura ?? texto.length * tamanho * 0.6 + 80;
   const h = tamanho * 1.6;
   return (
     <g transform={`translate(${x} ${y}) rotate(${rotacao})`}>
