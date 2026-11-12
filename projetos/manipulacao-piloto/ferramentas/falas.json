@@ -1,0 +1,19 @@
+[
+  {"id": "desculpa", "texto": "Se você já pediu desculpas por algo que nem sabe direito o que fez…", "pausa": 0.6},
+  {"id": "pra-voce", "texto": "este vídeo é pra você.", "pausa": 0.5},
+  {"id": "nao-grita", "texto": "Porque a manipulação mais eficiente não grita.", "pausa": 0.4},
+  {"id": "sussurra", "texto": "Ela sussurra.", "pausa": 0.6},
+  {"id": "espelho", "texto": "E faz você duvidar de si mesmo tão devagar que você nem percebe.", "pausa": 0.9},
+  {"id": "vilao", "texto": "Quando pensamos em manipulação, imaginamos um vilão óbvio, alguém que grita, ameaça, controla tudo.", "pausa": 0.4},
+  {"id": "vida-real", "texto": "Na vida real, quase nunca é assim.", "pausa": 0.4},
+  {"id": "gestos", "texto": "Ela aparece em gestos pequenos, repetidos, às vezes até gentis.", "pausa": 0.5},
+  {"id": "sete-sinais", "texto": "Hoje vamos ver sete sinais sutis de manipulação emocional,", "pausa": 0.2},
+  {"id": "pesquisa", "texto": "o que a pesquisa já descobriu sobre cada um,", "pausa": 0.2},
+  {"id": "funcionam", "texto": "e por que eles funcionam tão bem.", "pausa": 0.6},
+  {"id": "aviso", "texto": "Antes, um aviso importante:", "pausa": 0.3},
+  {"id": "nao-rotular", "texto": "reconhecer um desses comportamentos em alguém não transforma essa pessoa automaticamente num manipulador.", "pausa": 0.4},
+  {"id": "dias-ruins", "texto": "Todo mundo erra, todo mundo tem dias ruins.", "pausa": 0.5},
+  {"id": "padrao", "texto": "O que importa é o padrão.", "pausa": 0.5},
+  {"id": "guarde", "texto": "Guarde essa palavra.", "pausa": 0.5},
+  {"id": "padrao-final", "texto": "Padrão.", "pausa": 1.5}
+]

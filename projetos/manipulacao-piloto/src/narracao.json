@@ -1,0 +1,104 @@
+[
+  {
+    "id": "desculpa",
+    "texto": "Se você já pediu desculpas por algo que nem sabe direito o que fez…",
+    "duracao": 4.245,
+    "pausa": 0.6
+  },
+  {
+    "id": "pra-voce",
+    "texto": "este vídeo é pra você.",
+    "duracao": 1.771,
+    "pausa": 0.5
+  },
+  {
+    "id": "nao-grita",
+    "texto": "Porque a manipulação mais eficiente não grita.",
+    "duracao": 3.072,
+    "pausa": 0.4
+  },
+  {
+    "id": "sussurra",
+    "texto": "Ela sussurra.",
+    "duracao": 1.195,
+    "pausa": 0.6
+  },
+  {
+    "id": "espelho",
+    "texto": "E faz você duvidar de si mesmo tão devagar que você nem percebe.",
+    "duracao": 4.501,
+    "pausa": 0.9
+  },
+  {
+    "id": "vilao",
+    "texto": "Quando pensamos em manipulação, imaginamos um vilão óbvio, alguém que grita, ameaça, controla tudo.",
+    "duracao": 6.443,
+    "pausa": 0.4
+  },
+  {
+    "id": "vida-real",
+    "texto": "Na vida real, quase nunca é assim.",
+    "duracao": 2.261,
+    "pausa": 0.4
+  },
+  {
+    "id": "gestos",
+    "texto": "Ela aparece em gestos pequenos, repetidos, às vezes até gentis.",
+    "duracao": 4.352,
+    "pausa": 0.5
+  },
+  {
+    "id": "sete-sinais",
+    "texto": "Hoje vamos ver sete sinais sutis de manipulação emocional,",
+    "duracao": 3.861,
+    "pausa": 0.2
+  },
+  {
+    "id": "pesquisa",
+    "texto": "o que a pesquisa já descobriu sobre cada um,",
+    "duracao": 2.773,
+    "pausa": 0.2
+  },
+  {
+    "id": "funcionam",
+    "texto": "e por que eles funcionam tão bem.",
+    "duracao": 2.112,
+    "pausa": 0.6
+  },
+  {
+    "id": "aviso",
+    "texto": "Antes, um aviso importante:",
+    "duracao": 1.856,
+    "pausa": 0.3
+  },
+  {
+    "id": "nao-rotular",
+    "texto": "reconhecer um desses comportamentos em alguém não transforma essa pessoa automaticamente num manipulador.",
+    "duracao": 6.933,
+    "pausa": 0.4
+  },
+  {
+    "id": "dias-ruins",
+    "texto": "Todo mundo erra, todo mundo tem dias ruins.",
+    "duracao": 2.859,
+    "pausa": 0.5
+  },
+  {
+    "id": "padrao",
+    "texto": "O que importa é o padrão.",
+    "duracao": 1.792,
+    "pausa": 0.5
+  },
+  {
+    "id": "guarde",
+    "texto": "Guarde essa palavra.",
+    "duracao": 1.621,
+    "pausa": 0.5
+  },
+  {
+    "id": "padrao-final",
+    "texto": "Padrão.",
+    "duracao": 0.811,
+    "pausa": 1.5
+  }
+]
