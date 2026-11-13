@@ -23,8 +23,10 @@ as cenas, e piscadas, bico, gestos e legendas são sincronizados por palavra. Pa
 
 ## Narração
 
-Voz `pt-BR-ThalitaMultilingualNeural` (rate −6%, pitch +1 Hz) gerada por cena, com 0,15 s de respiro antes e
-0,35 s depois, juntada em uma faixa a −16 LUFS / −1,5 dBTP. A duração de cada cena passa a ser a da fala real.
+Voz **Thalita HD** (`pt-BR-Thalita:DragonHDLatestNeural`, sem ajuste de rate/pitch) + **tratamento suave**
+(graves +3 dB, menos aspereza em 3,2 kHz, de-esser, compressão leve, ambiente discreto), escolhida entre 7
+amostras. As cenas narradas são geradas num take contínuo (pausa de 400 ms entre cenas) e cortadas nas pausas;
+a faixa sai a −16 LUFS / −1,5 dBTP. A duração de cada cena é a da fala real. Parâmetros em `src/roteiro.json`.
 Na sessão de nuvem, a chave é injetada pelo proxy; fora dela, defina `AZURE_SPEECH_KEY` (nunca no repositório).
 
 ## Comandos

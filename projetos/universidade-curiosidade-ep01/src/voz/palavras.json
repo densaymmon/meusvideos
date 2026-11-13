@@ -1,354 +1,354 @@
 {
-  "c01": [
-    {
-      "texto": "Em",
-      "inicio": 0.15,
-      "fim": 0.274
-    },
-    {
-      "texto": "1964,",
-      "inicio": 0.274,
-      "fim": 1.474
-    },
-    {
-      "texto": "um",
-      "inicio": 2.19,
-      "fim": 2.374
-    },
-    {
-      "texto": "garoto",
-      "inicio": 2.374,
-      "fim": 2.924
-    },
-    {
-      "texto": "de",
-      "inicio": 2.924,
-      "fim": 3.108
-    },
-    {
-      "texto": "dezessete",
-      "inicio": 3.108,
-      "fim": 3.842
-    },
-    {
-      "texto": "anos",
-      "inicio": 3.842,
-      "fim": 4.209
-    },
-    {
-      "texto": "decidiu",
-      "inicio": 4.209,
-      "fim": 4.759
-    },
-    {
-      "texto": "não",
-      "inicio": 4.759,
-      "fim": 4.943
-    },
-    {
-      "texto": "dormir.",
-      "inicio": 4.943,
-      "fim": 5.73
-    },
-    {
-      "texto": "Nem",
-      "inicio": 5.73,
-      "fim": 5.932
-    },
-    {
-      "texto": "um",
-      "inicio": 5.932,
-      "fim": 6.134
-    },
-    {
-      "texto": "cochilo.",
-      "inicio": 6.134,
-      "fim": 7.14
-    },
-    {
-      "texto": "Por",
-      "inicio": 7.14,
-      "fim": 7.351
-    },
-    {
-      "texto": "onze",
-      "inicio": 7.351,
-      "fim": 7.774
-    },
-    {
-      "texto": "dias",
-      "inicio": 7.774,
-      "fim": 7.986
-    },
-    {
-      "texto": "seguidos.",
-      "inicio": 7.986,
-      "fim": 8.62
-    }
-  ],
-  "c02": [
-    {
-      "texto": "No",
-      "inicio": 9.12,
-      "fim": 9.322
-    },
-    {
-      "texto": "quarto",
-      "inicio": 9.322,
-      "fim": 9.728
-    },
-    {
-      "texto": "dia,",
-      "inicio": 9.728,
-      "fim": 10.14
-    },
-    {
-      "texto": "ele",
-      "inicio": 10.14,
-      "fim": 10.492
-    },
-    {
-      "texto": "já",
-      "inicio": 10.492,
-      "fim": 10.668
-    },
-    {
-      "texto": "via",
-      "inicio": 10.668,
-      "fim": 10.843
-    },
-    {
-      "texto": "coisas",
-      "inicio": 10.843,
-      "fim": 11.195
-    },
-    {
-      "texto": "que",
-      "inicio": 11.195,
-      "fim": 11.371
-    },
-    {
-      "texto": "não",
-      "inicio": 11.371,
-      "fim": 11.547
-    },
-    {
-      "texto": "estavam",
-      "inicio": 11.547,
-      "fim": 12.074
-    },
-    {
-      "texto": "lá…",
-      "inicio": 12.074,
-      "fim": 12.54
-    },
-    {
-      "texto": "e",
-      "inicio": 12.54,
-      "fim": 12.69
-    },
-    {
-      "texto": "jurava",
-      "inicio": 12.69,
-      "fim": 13.14
-    },
-    {
-      "texto": "ser",
-      "inicio": 13.14,
-      "fim": 13.29
-    },
-    {
-      "texto": "um",
-      "inicio": 13.29,
-      "fim": 13.44
-    },
-    {
-      "texto": "jogador",
-      "inicio": 13.44,
-      "fim": 13.89
-    },
-    {
-      "texto": "famoso",
-      "inicio": 13.89,
-      "fim": 14.34
-    },
-    {
-      "texto": "de",
-      "inicio": 14.34,
-      "fim": 14.49
-    },
-    {
-      "texto": "futebol",
-      "inicio": 14.49,
-      "fim": 14.94
-    },
-    {
-      "texto": "americano.",
-      "inicio": 14.94,
-      "fim": 15.69
-    }
-  ],
-  "c03": [
-    {
-      "texto": "Hoje,",
-      "inicio": 16.19,
-      "fim": 16.82
-    },
-    {
-      "texto": "vamos",
-      "inicio": 16.82,
-      "fim": 17.171
-    },
-    {
-      "texto": "ver",
-      "inicio": 17.171,
-      "fim": 17.347
-    },
-    {
-      "texto": "o",
-      "inicio": 17.347,
-      "fim": 17.523
-    },
-    {
-      "texto": "que",
-      "inicio": 17.523,
-      "fim": 17.699
-    },
-    {
-      "texto": "acontece",
-      "inicio": 17.699,
-      "fim": 18.491
-    },
-    {
-      "texto": "com",
-      "inicio": 18.491,
-      "fim": 18.777
-    },
-    {
-      "texto": "o",
-      "inicio": 18.777,
-      "fim": 19.113
-    },
-    {
-      "texto": "seu",
-      "inicio": 19.113,
-      "fim": 19.289
-    },
-    {
-      "texto": "corpo,",
-      "inicio": 19.289,
-      "fim": 19.87
-    },
-    {
-      "texto": "dia",
-      "inicio": 19.87,
-      "fim": 20.051
-    },
-    {
-      "texto": "a",
-      "inicio": 20.051,
-      "fim": 20.233
-    },
-    {
-      "texto": "dia,",
-      "inicio": 20.233,
-      "fim": 20.414
-    },
-    {
-      "texto": "se",
-      "inicio": 20.414,
-      "fim": 20.596
-    },
-    {
-      "texto": "você",
-      "inicio": 20.596,
-      "fim": 20.959
-    },
-    {
-      "texto": "ficar",
-      "inicio": 20.959,
-      "fim": 21.321
-    },
-    {
-      "texto": "sete",
-      "inicio": 21.321,
-      "fim": 21.684
-    },
-    {
-      "texto": "dias",
-      "inicio": 21.684,
-      "fim": 21.866
-    },
-    {
-      "texto": "sem",
-      "inicio": 21.866,
-      "fim": 22.047
-    },
-    {
-      "texto": "dormir.",
-      "inicio": 22.047,
-      "fim": 22.96
-    },
-    {
-      "texto": "E,",
-      "inicio": 22.96,
-      "fim": 23.143
-    },
-    {
-      "texto": "spoiler:",
-      "inicio": 23.143,
-      "fim": 23.9
-    },
-    {
-      "texto": "lá",
-      "inicio": 23.9,
-      "fim": 24.1
-    },
-    {
-      "texto": "pelo",
-      "inicio": 24.1,
-      "fim": 24.5
-    },
-    {
-      "texto": "terceiro",
-      "inicio": 24.5,
-      "fim": 25.1
-    },
-    {
-      "texto": "dia,",
-      "inicio": 25.1,
-      "fim": 25.47
-    },
-    {
-      "texto": "o",
-      "inicio": 25.47,
-      "fim": 25.626
-    },
-    {
-      "texto": "cérebro",
-      "inicio": 25.626,
-      "fim": 26.093
-    },
-    {
-      "texto": "começa",
-      "inicio": 26.093,
-      "fim": 26.561
-    },
-    {
-      "texto": "a",
-      "inicio": 26.561,
-      "fim": 26.717
-    },
-    {
-      "texto": "pregar",
-      "inicio": 26.717,
-      "fim": 27.028
-    },
-    {
-      "texto": "peças.",
-      "inicio": 27.028,
-      "fim": 27.34
-    }
-  ],
-  "c04": []
+ "c01": [
+  {
+   "texto": "Em",
+   "inicio": 0.15,
+   "fim": 0.312
+  },
+  {
+   "texto": "1964,",
+   "inicio": 0.312,
+   "fim": 1.512
+  },
+  {
+   "texto": "um",
+   "inicio": 2.39,
+   "fim": 2.574
+  },
+  {
+   "texto": "garoto",
+   "inicio": 2.574,
+   "fim": 3.124
+  },
+  {
+   "texto": "de",
+   "inicio": 3.124,
+   "fim": 3.308
+  },
+  {
+   "texto": "dezessete",
+   "inicio": 3.308,
+   "fim": 4.042
+  },
+  {
+   "texto": "anos",
+   "inicio": 4.042,
+   "fim": 4.569
+  },
+  {
+   "texto": "decidiu",
+   "inicio": 4.569,
+   "fim": 5.119
+  },
+  {
+   "texto": "não",
+   "inicio": 5.119,
+   "fim": 5.303
+  },
+  {
+   "texto": "dormir.",
+   "inicio": 5.303,
+   "fim": 5.67
+  },
+  {
+   "texto": "Nem",
+   "inicio": 5.99,
+   "fim": 6.18
+  },
+  {
+   "texto": "um",
+   "inicio": 6.18,
+   "fim": 6.37
+  },
+  {
+   "texto": "cochilo.",
+   "inicio": 6.37,
+   "fim": 6.94
+  },
+  {
+   "texto": "Por",
+   "inicio": 7.19,
+   "fim": 7.4
+  },
+  {
+   "texto": "onze",
+   "inicio": 7.4,
+   "fim": 7.82
+  },
+  {
+   "texto": "dias",
+   "inicio": 7.82,
+   "fim": 8.03
+  },
+  {
+   "texto": "seguidos.",
+   "inicio": 8.03,
+   "fim": 8.66
+  }
+ ],
+ "c02": [
+  {
+   "texto": "No",
+   "inicio": 9.39,
+   "fim": 9.608
+  },
+  {
+   "texto": "quarto",
+   "inicio": 9.608,
+   "fim": 10.042
+  },
+  {
+   "texto": "dia,",
+   "inicio": 10.042,
+   "fim": 10.26
+  },
+  {
+   "texto": "ele",
+   "inicio": 10.42,
+   "fim": 10.767
+  },
+  {
+   "texto": "já",
+   "inicio": 10.767,
+   "fim": 10.94
+  },
+  {
+   "texto": "via",
+   "inicio": 10.94,
+   "fim": 11.213
+  },
+  {
+   "texto": "coisas",
+   "inicio": 11.213,
+   "fim": 11.56
+  },
+  {
+   "texto": "que",
+   "inicio": 11.56,
+   "fim": 11.733
+  },
+  {
+   "texto": "não",
+   "inicio": 11.733,
+   "fim": 11.907
+  },
+  {
+   "texto": "estavam",
+   "inicio": 11.907,
+   "fim": 12.427
+  },
+  {
+   "texto": "lá…",
+   "inicio": 12.427,
+   "fim": 12.6
+  },
+  {
+   "texto": "e",
+   "inicio": 12.83,
+   "fim": 12.971
+  },
+  {
+   "texto": "jurava",
+   "inicio": 12.971,
+   "fim": 13.396
+  },
+  {
+   "texto": "ser",
+   "inicio": 13.396,
+   "fim": 13.537
+  },
+  {
+   "texto": "um",
+   "inicio": 13.537,
+   "fim": 13.679
+  },
+  {
+   "texto": "jogador",
+   "inicio": 13.679,
+   "fim": 14.103
+  },
+  {
+   "texto": "famoso",
+   "inicio": 14.103,
+   "fim": 14.527
+  },
+  {
+   "texto": "de",
+   "inicio": 14.527,
+   "fim": 14.669
+  },
+  {
+   "texto": "futebol",
+   "inicio": 14.669,
+   "fim": 15.093
+  },
+  {
+   "texto": "americano.",
+   "inicio": 15.093,
+   "fim": 15.8
+  }
+ ],
+ "c03": [
+  {
+   "texto": "Hoje,",
+   "inicio": 16.48,
+   "fim": 16.9
+  },
+  {
+   "texto": "vamos",
+   "inicio": 17.14,
+   "fim": 17.514
+  },
+  {
+   "texto": "ver",
+   "inicio": 17.514,
+   "fim": 17.701
+  },
+  {
+   "texto": "o",
+   "inicio": 17.701,
+   "fim": 17.889
+  },
+  {
+   "texto": "que",
+   "inicio": 17.889,
+   "fim": 18.076
+  },
+  {
+   "texto": "acontece",
+   "inicio": 18.076,
+   "fim": 18.914
+  },
+  {
+   "texto": "com",
+   "inicio": 18.914,
+   "fim": 19.211
+  },
+  {
+   "texto": "o",
+   "inicio": 19.211,
+   "fim": 19.399
+  },
+  {
+   "texto": "seu",
+   "inicio": 19.399,
+   "fim": 19.586
+  },
+  {
+   "texto": "corpo,",
+   "inicio": 19.586,
+   "fim": 19.96
+  },
+  {
+   "texto": "dia",
+   "inicio": 20.19,
+   "fim": 20.329
+  },
+  {
+   "texto": "a",
+   "inicio": 20.329,
+   "fim": 20.467
+  },
+  {
+   "texto": "dia,",
+   "inicio": 20.467,
+   "fim": 20.606
+  },
+  {
+   "texto": "se",
+   "inicio": 20.606,
+   "fim": 20.744
+  },
+  {
+   "texto": "você",
+   "inicio": 20.744,
+   "fim": 21.021
+  },
+  {
+   "texto": "ficar",
+   "inicio": 21.021,
+   "fim": 21.299
+  },
+  {
+   "texto": "sete",
+   "inicio": 21.299,
+   "fim": 21.576
+  },
+  {
+   "texto": "dias",
+   "inicio": 21.576,
+   "fim": 21.714
+  },
+  {
+   "texto": "sem",
+   "inicio": 21.714,
+   "fim": 21.853
+  },
+  {
+   "texto": "dormir.",
+   "inicio": 21.853,
+   "fim": 22.13
+  },
+  {
+   "texto": "E,",
+   "inicio": 22.63,
+   "fim": 22.83
+  },
+  {
+   "texto": "spoiler:",
+   "inicio": 22.83,
+   "fim": 23.23
+  },
+  {
+   "texto": "lá",
+   "inicio": 23.57,
+   "fim": 23.754
+  },
+  {
+   "texto": "pelo",
+   "inicio": 23.754,
+   "fim": 24.123
+  },
+  {
+   "texto": "terceiro",
+   "inicio": 24.123,
+   "fim": 24.676
+  },
+  {
+   "texto": "dia,",
+   "inicio": 24.676,
+   "fim": 24.86
+  },
+  {
+   "texto": "o",
+   "inicio": 25.07,
+   "fim": 25.242
+  },
+  {
+   "texto": "cérebro",
+   "inicio": 25.242,
+   "fim": 25.757
+  },
+  {
+   "texto": "começa",
+   "inicio": 25.757,
+   "fim": 26.272
+  },
+  {
+   "texto": "a",
+   "inicio": 26.272,
+   "fim": 26.443
+  },
+  {
+   "texto": "pregar",
+   "inicio": 26.443,
+   "fim": 26.937
+  },
+  {
+   "texto": "peças.",
+   "inicio": 26.937,
+   "fim": 27.28
+  }
+ ],
+ "c04": []
 }
