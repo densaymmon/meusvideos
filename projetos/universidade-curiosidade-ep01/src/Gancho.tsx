@@ -1,10 +1,16 @@
 import React from "react";
-import { AbsoluteFill, Sequence, useVideoConfig } from "remotion";
+import {
+  AbsoluteFill,
+  Audio,
+  Sequence,
+  staticFile,
+  useVideoConfig,
+} from "remotion";
 import { Cena01 } from "./cenas/Cena01";
 import { Cena02 } from "./cenas/Cena02";
 import { Cena03 } from "./cenas/Cena03";
 import { Cena04 } from "./cenas/Cena04";
-import { CENAS } from "./linhaDoTempo";
+import { CENAS, TEM_NARRACAO } from "./linhaDoTempo";
 import { COR } from "./tema";
 import { Legenda } from "./ui/Legenda";
 
@@ -35,6 +41,9 @@ export const Gancho: React.FC = () => {
         );
       })}
       <Legenda />
+      {TEM_NARRACAO && (
+        <Audio name="Narração (Thalita)" src={staticFile("voz/narracao.wav")} />
+      )}
     </AbsoluteFill>
   );
 };

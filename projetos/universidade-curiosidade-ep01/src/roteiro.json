@@ -1,0 +1,36 @@
+{
+  "voz": {
+    "nome": "pt-BR-ThalitaMultilingualNeural",
+    "rate": "-6%",
+    "pitch": "+1Hz"
+  },
+  "respiroInicial": 0.15,
+  "respiroFinal": 0.35,
+  "cenas": [
+    {
+      "id": "c01",
+      "narracao": "Em 1964, um garoto de dezessete anos decidiu não dormir. Nem um cochilo. Por onze dias seguidos.",
+      "destaques": ["1964", "onze dias"],
+      "estimativa": [0, 7.1]
+    },
+    {
+      "id": "c02",
+      "narracao": "No quarto dia, ele já via coisas que não estavam lá… e jurava ser um jogador famoso de futebol americano.",
+      "destaques": ["quarto dia", "coisas que não estavam lá"],
+      "estimativa": [7.1, 15.4]
+    },
+    {
+      "id": "c03",
+      "narracao": "Hoje, vamos ver o que acontece com o seu corpo, dia a dia, se você ficar sete dias sem dormir. E, spoiler: lá pelo terceiro dia, o cérebro começa a pregar peças.",
+      "destaques": ["sete dias sem dormir", "terceiro dia"],
+      "estimativa": [15.4, 28.6]
+    },
+    {
+      "id": "c04",
+      "narracao": "",
+      "destaques": [],
+      "duracaoFixa": 3.0,
+      "estimativa": [28.6, 31.6]
+    }
+  ]
+}

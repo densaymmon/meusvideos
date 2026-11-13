@@ -1,9 +1,11 @@
-// Linha do tempo do gancho (cenas 01–04), tirada do roteiro de direção.
+// Linha do tempo do gancho (cenas 01–04).
 //
-// Enquanto não há narração final, o tempo de cada palavra é ESTIMADO
-// (sílabas + pausas de pontuação dentro da janela da cena). Quando a voz do
-// Azure chegar, `src/voz/palavras.json` recebe os tempos reais (WordBoundary)
-// e tudo que está amarrado a palavras (animações, legendas) se move sozinho.
+// O texto vem de `roteiro.json`. Os tempos vêm da narração gerada por
+// `scripts/narracao.py` (`voz/cenas.json` e `voz/palavras.json`). Sem narração,
+// usa a estimativa do roteiro de direção e distribui as palavras por sílabas.
+// Tudo que está amarrado a palavras (animações, legendas) segue esses tempos.
+import roteiro from "./roteiro.json";
+import cenasReais from "./voz/cenas.json";
 import palavrasReais from "./voz/palavras.json";
 
 export type Palavra = { texto: string; inicio: number; fim: number };
@@ -15,33 +17,16 @@ export type Cena = {
   destaques: string[];
 };
 
-export const CENAS: Cena[] = [
-  {
-    id: "c01",
-    inicio: 0,
-    fim: 7.1,
-    narracao:
-      "Em 1964, um garoto de dezessete anos decidiu não dormir. Nem um cochilo. Por onze dias seguidos.",
-    destaques: ["1964", "onze dias"],
-  },
-  {
-    id: "c02",
-    inicio: 7.1,
-    fim: 15.4,
-    narracao:
-      "No quarto dia, ele já via coisas que não estavam lá… e jurava ser um jogador famoso de futebol americano.",
-    destaques: ["quarto dia", "coisas que não estavam lá"],
-  },
-  {
-    id: "c03",
-    inicio: 15.4,
-    fim: 28.6,
-    narracao:
-      "Hoje, vamos ver o que acontece com o seu corpo, dia a dia, se você ficar sete dias sem dormir. E, spoiler: lá pelo terceiro dia, o cérebro começa a pregar peças.",
-    destaques: ["sete dias sem dormir", "terceiro dia"],
-  },
-  { id: "c04", inicio: 28.6, fim: 31.6, narracao: "", destaques: [] },
-];
+const tempos = cenasReais as Record<string, { inicio: number; fim: number }>;
+export const TEM_NARRACAO = Object.keys(tempos).length > 0;
+
+export const CENAS: Cena[] = roteiro.cenas.map((c) => ({
+  id: c.id,
+  narracao: c.narracao,
+  destaques: c.destaques,
+  inicio: TEM_NARRACAO ? tempos[c.id].inicio : c.estimativa[0],
+  fim: TEM_NARRACAO ? tempos[c.id].fim : c.estimativa[1],
+}));
 
 export const DURACAO_TOTAL = CENAS[CENAS.length - 1].fim;
 
@@ -61,7 +46,8 @@ export const normaliza = (s: string) =>
     .replace(/[^a-z0-9 ]/g, "");
 
 const silabas = (w: string) => {
-  if (/^\d+$/.test(w)) return w.length * 2.8; // "mil novecentos e sessenta e quatro"
+  const nums = w.replace(/\W/g, "");
+  if (/^\d+$/.test(nums)) return nums.length * 2.8; // "mil novecentos e sessenta e quatro"
   const g = normaliza(w).match(/[aeiouy]+/g);
   return Math.max(1, g ? g.length : 1);
 };
@@ -91,15 +77,10 @@ const estimaCena = (c: Cena): Palavra[] => {
   });
 };
 
-const reais = palavrasReais as unknown as Palavra[];
+const reais = palavrasReais as unknown as Record<string, Palavra[]>;
 
 export const PALAVRAS: Record<string, Palavra[]> = Object.fromEntries(
-  CENAS.map((c) => [
-    c.id,
-    reais.length
-      ? reais.filter((p) => p.inicio >= c.inicio && p.inicio < c.fim)
-      : estimaCena(c),
-  ]),
+  CENAS.map((c) => [c.id, TEM_NARRACAO ? (reais[c.id] ?? []) : estimaCena(c)]),
 );
 
 /** Índice da primeira palavra da expressão dentro da cena. */
