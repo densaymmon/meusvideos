@@ -1,0 +1,37 @@
+[
+ {
+  "id": "desculpa",
+  "texto": "Se você já pediu desculpas por algo que nem sabe direito o que fez…",
+  "duracao": 4.245,
+  "pausa": 0.6,
+  "bloco": "gancho"
+ },
+ {
+  "id": "pra-voce",
+  "texto": "este vídeo é pra você.",
+  "duracao": 1.771,
+  "pausa": 0.5,
+  "bloco": "gancho"
+ },
+ {
+  "id": "nao-grita",
+  "texto": "Porque a manipulação mais eficiente não grita.",
+  "duracao": 3.072,
+  "pausa": 0.4,
+  "bloco": "gancho"
+ },
+ {
+  "id": "sussurra",
+  "texto": "Ela sussurra.",
+  "duracao": 1.195,
+  "pausa": 0.6,
+  "bloco": "gancho"
+ },
+ {
+  "id": "espelho",
+  "texto": "E faz você duvidar de si mesmo tão devagar que você nem percebe.",
+  "duracao": 4.501,
+  "pausa": 0.9,
+  "bloco": "gancho"
+ }
+]
